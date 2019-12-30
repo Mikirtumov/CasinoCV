@@ -1,1 +1,1 @@
-# CasinoCV
+# CVCasino
