@@ -10,14 +10,9 @@ body {
   color: #868e96;
   
 }
-
-.icons{
-  max-height: 150px;
-  max-width: 200px;
-  width: 120px;
-  height: 120px;
+a.nav-link.js-scroll-trigger.active{
+  color: #000000;
 }
-
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -40,6 +35,7 @@ h6 {
 h1 {
   font-size: 6rem;
   line-height: 5.5rem;
+  text-shadow: 1px 2px 3px #de520f;
 }
 
 h2 {
@@ -95,6 +91,7 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  
 }
 
 #sideNav .navbar-toggler:focus {
@@ -168,7 +165,12 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background: rgb(211, 96, 55);
+  background: -moz-linear-gradient(41deg, rgb(211, 96, 55) 34%, rgb(0, 0, 2) 68%);
+  background: -webkit-linear-gradient(41deg, rgb(211, 96, 55) 34%, rgb(0, 0, 2) 68%);
+  background: -o-linear-gradient(41deg, rgb(211, 96, 55) 34%, rgb(0, 0, 2) 68%);
+  background: -ms-linear-gradient(41deg, rgb(211, 96, 55) 34%, rgb(0, 0, 2) 68%);
+  background: linear-gradient(131deg, rgb(211, 96, 55) 34%, rgb(0, 0, 2) 68%);
 }
 
 .text-primary {
@@ -176,9 +178,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #BD5D38;
+  color: rgb(146, 146, 146);
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #000000;
+}
+
+@media (min-width: 375px){
+.dev-icons {
+  font-size: 2.3rem;
+}
 }
