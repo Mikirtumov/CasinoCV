@@ -8,11 +8,10 @@ body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96;
-  
 }
-.interest{
-  font-size: 25px;
-}
+/* #zero{
+  color: green;
+} */
 
 a.nav-link.js-scroll-trigger.active{
   color: #000000;
@@ -191,7 +190,7 @@ a:hover, a:focus, a:active {
 
 @media (max-width: 375px){
 .dev-icons {
-  font-size: 2.1rem;
+  font-size: 23px;
 }
 
 h1 {
