@@ -12,6 +12,9 @@ body {
 /* #zero{
   color: green;
 } */
+.interest{
+  font-size: 22px;
+}
 
 a.nav-link.js-scroll-trigger.active{
   color: #000000;
