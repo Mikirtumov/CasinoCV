@@ -12,9 +12,9 @@ body {
 /* #zero{
   color: green;
 } */
-.interest{
+/* .interest{
   font-size: 22px;
-}
+} */
 
 a.nav-link.js-scroll-trigger.active{
   color: #000000;
@@ -86,7 +86,7 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+  font-size: 43px;
 }
 
 .dev-icons .list-inline-item i:hover {
